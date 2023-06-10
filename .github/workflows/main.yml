@@ -8,9 +8,7 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v2
     - name: Set up JDK 1.8
@@ -20,13 +18,13 @@ jobs:
         distribution: 'adopt'
         cache: 'maven'
 
-#    - name: Use Maven 3.9.2
-#      run: |
-#        MAVEN_VERSION=3.9.2
-#        MAVEN_BASE_URL=https://archive.apache.org/dist/maven/maven-3/${MAVEN_VERSION}/binaries
-#        curl -fsSL ${MAVEN_BASE_URL}/apache-maven-${MAVEN_VERSION}-bin.tar.gz | tar -xz -C /tmp
-#        echo "M2_HOME=/tmp/apache-maven-${MAVEN_VERSION}" >> $GITHUB_ENV
-#        echo "/tmp/apache-maven-${MAVEN_VERSION}/bin" >> $GITHUB_PATH
+    - name: Use Maven 3.9.2
+      run: |
+        MAVEN_VERSION=3.9.2
+        MAVEN_BASE_URL=https://archive.apache.org/dist/maven/maven-3/${MAVEN_VERSION}/binaries
+        curl -fsSL ${MAVEN_BASE_URL}/apache-maven-${MAVEN_VERSION}-bin.tar.gz | tar -xz -C /tmp
+        echo "M2_HOME=/tmp/apache-maven-${MAVEN_VERSION}" >> $GITHUB_ENV
+        echo "/tmp/apache-maven-${MAVEN_VERSION}/bin" >> $GITHUB_PATH
 
 #     - name: Build with Maven
 #       run: mvn -B clean verify
