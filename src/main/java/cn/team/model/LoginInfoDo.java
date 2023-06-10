@@ -1,11 +1,6 @@
-package cn.mccreefei.model;
+package cn.team.model;
 
 import java.util.Date;
-
-/**
- * @author MccreeFei
- * @create 2018-04-28 下午1:32
- */
 public class LoginInfoDo {
     private Integer id;
     private Integer userId;
