@@ -24,7 +24,6 @@
             <artifactId>spring-test</artifactId>
             <version>${spring.version}</version>
         </dependency>
-
         <!--dao以及数据库层相关依赖-->
         <dependency>
             <groupId>mysql</groupId>
