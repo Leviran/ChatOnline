@@ -1,8 +1,8 @@
-package cn.mccreefei.service;
+package cn.team.service;
 
-import cn.mccreefei.model.LoginInfoDo;
-import cn.mccreefei.model.MessageRecordDo;
-import cn.mccreefei.model.User;
+import cn.team.model.LoginInfoDo;
+import cn.team.model.MessageRecordDo;
+import cn.team.model.User;
 
 /**
  * 用户service接口

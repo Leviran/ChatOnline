@@ -1,4 +1,4 @@
-package cn.mccreefei.model;
+package cn.team.model;
 
 import java.util.Date;
 
