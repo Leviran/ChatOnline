@@ -1,4 +1,4 @@
-package cn.mccreefei.model;
+package cn.team.model;
 
 /**
  * 反馈前端ajax登录的信息实体
