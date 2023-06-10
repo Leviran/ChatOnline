@@ -1,9 +1,5 @@
-package cn.mccreefei.enums;
+package cn.team.enums;
 
-/**
- * @author MccreeFei
- * @create 2018-04-28 下午1:30
- */
 public enum MessageTypeEnum {
     TEXT(1, "text"),
     IMAGE(2, "image");
